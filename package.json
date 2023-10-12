@@ -1,0 +1,19 @@
+{
+  "name": "nicolasbarrios_assignment2_inm320sdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server --baseDir=\"public\"",
+    "watch": "sass --watch public/src/scss:public/assets/css",
+    "start": "concurrently \"npm run watch\" \"npm run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Barrios",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.69.3"
+  }
+}
